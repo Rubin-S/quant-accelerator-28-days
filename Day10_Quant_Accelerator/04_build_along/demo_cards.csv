@@ -1,0 +1,11 @@
+name,family,card_type,instrument,product,needs_short_or_fo,leverage,has_payer,published,gross_edge_bps_per_trade,trades_per_year,avg_hold_days,expected_sharpe_gross,n_params,our_t,external_t
+Overnight NIFTYBEES (buy close sell open),events,alpha,etf_equity,delivery,0,1.0,1,1,9.1,245,1,0.72,0,2.49,3.0
+Turn-of-month NIFTYBEES (last day + first 3),events,alpha,etf_equity,delivery,0,1.0,1,1,52,12,4,0.58,1,2.00,3.0
+Faber 10-month filter on NIFTYBEES,trend,overlay,etf_equity,delivery,0,1.0,1,1,0,2,180,0.25,1,,3.0
+12-month time-series trend on NIFTYBEES,trend,alpha,etf_equity,delivery,0,1.0,1,1,150,2,180,0.23,1,0.81,4.0
+1-month trend on NIFTYBEES,trend,alpha,etf_equity,delivery,0,1.0,1,1,40,12,30,0.0,1,-0.98,
+BANK/NIFTY spread mean reversion,pairs,alpha,etf_equity,delivery,1,1.0,1,1,60,8,45,0.3,3,,
+Intraday large-cap mean reversion,mean_reversion,alpha,equity,intraday,0,1.0,1,1,15,500,0,1.0,3,,
+High-VIX: buy NIFTYBEES after VIX spike,events,alpha,etf_equity,delivery,0,1.0,1,0,200,4,40,0.46,2,1.60,
+NIFTY vs gold 6-month momentum rotation,momentum,alpha,etf_equity,delivery,0,1.0,1,1,100,4,90,0.0,1,-0.45,
+Hold Nifty200 Momentum 30 ETF instead of NIFTYBEES,momentum,alpha,etf_equity,delivery,0,1.0,1,1,300,1,365,0.3,0,,3.1

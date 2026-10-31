@@ -1,0 +1,1 @@
+| 2026-11-03 | 4 | Real NIFTY data: returns, vol, correlation, fat tails | nifty_stats_lab run + 10 problems + audit checklist v0 | Gut within 10%: _/10. Lab predictions right: _/6. Found the data trap before reading it? Y/N | | W1 in progress | |

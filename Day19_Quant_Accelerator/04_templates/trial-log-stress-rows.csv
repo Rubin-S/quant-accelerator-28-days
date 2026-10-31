@@ -1,0 +1,2 @@
+trial_id,date,family,description,params,window,is_sharpe_xs,counted_in_dsr,notes
+S001,2026-11-18,stress,costs x2,Faber 10m,2008-09..2018-12,,no,no rule change

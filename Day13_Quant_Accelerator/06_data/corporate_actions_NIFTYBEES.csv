@@ -1,0 +1,8 @@
+ex_date,action,value_per_post_split_unit,ratio,status,source
+2008-09-15,dividend,0.50,,listed_by_vendors,"Trendlyne Rs 5.00 pre-split; before Yahoo ETF data start (2009-01-02)"
+2009-07-13,dividend,0.45,,disputed_price_evidence_weak,"Trendlyne Rs 4.50 pre-split; Investing.com 0.45 adj"
+2012-03-09,dividend,1.00,,price_evidence_strong,"Investing.com 2012-03-09 1.00 adj; Trendlyne says 12 Mar 2012 Rs 10 pre-split; price gap on 03-09 matches"
+2013-03-13,dividend,0.75,,disputed_vendor_conflict,"Investing.com + StockEvents list it; Trendlyne/TwelveData do not"
+2014-03-10,dividend,0.70,,disputed_vendor_conflict,"Investing.com + StockEvents list it; Trendlyne/TwelveData do not"
+2015-02-18,dividend,0.80,,disputed_vendor_conflict,"Investing.com + StockEvents list it; Trendlyne/TwelveData do not"
+2019-12-19,split,,10,verified_primary,"NSE circular NSE/CML/42873 dated 2019-12-11: face value Rs 10 -> Re 1"

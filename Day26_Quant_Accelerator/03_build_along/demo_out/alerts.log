@@ -1,0 +1,26 @@
+{"ts": "2026-11-01T01:09:35+05:30", "level": "INFO", "text": "[INFO] 2018-11-26: session done, equity 20000, qty 0"}
+{"ts": "2026-11-01T01:09:35+05:30", "level": "INFO", "text": "[INFO] 2018-11-27: session done, equity 20000, qty 0"}
+{"ts": "2026-11-01T01:09:35+05:30", "level": "INFO", "text": "[INFO] 2018-11-28: session done, equity 20000, qty 0"}
+{"ts": "2026-11-01T01:09:36+05:30", "level": "INFO", "text": "[INFO] 2018-11-29: session done, equity 20000, qty 0"}
+{"ts": "2026-11-01T01:09:36+05:30", "level": "INFO", "text": "[INFO] 2018-11-30: session done, equity 20000, qty 0"}
+{"ts": "2026-11-01T01:09:36+05:30", "level": "INFO", "text": "[INFO] 2018-12-03: session done, equity 20000, qty 0"}
+{"ts": "2026-11-01T01:09:36+05:30", "level": "WARN", "text": "[WARN] 2018-12-04: paper BUY 182 NIFTYBEES \u2192 COMPLETE @ 109.06 "}
+{"ts": "2026-11-01T01:09:36+05:30", "level": "INFO", "text": "[INFO] 2018-12-04: session done, equity 19986, qty 182"}
+{"ts": "2026-11-01T01:09:36+05:30", "level": "INFO", "text": "[INFO] 2018-12-05: session done, equity 19815, qty 182"}
+{"ts": "2026-11-01T01:09:36+05:30", "level": "INFO", "text": "[INFO] 2018-12-06: session done, equity 19437, qty 182"}
+{"ts": "2026-11-01T01:09:36+05:30", "level": "INFO", "text": "[INFO] 2018-12-07: session done, equity 19593, qty 182"}
+{"ts": "2026-11-01T01:09:36+05:30", "level": "INFO", "text": "[INFO] 2018-12-10: session done, equity 19252, qty 182"}
+{"ts": "2026-11-01T01:09:36+05:30", "level": "INFO", "text": "[INFO] 2018-12-11: session done, equity 19390, qty 182"}
+{"ts": "2026-11-01T01:09:36+05:30", "level": "INFO", "text": "[INFO] 2018-12-12: session done, equity 19716, qty 182"}
+{"ts": "2026-11-01T01:09:36+05:30", "level": "INFO", "text": "[INFO] 2018-12-13: session done, equity 19787, qty 182"}
+{"ts": "2026-11-01T01:09:36+05:30", "level": "INFO", "text": "[INFO] 2018-12-14: session done, equity 19851, qty 182"}
+{"ts": "2026-11-01T01:09:36+05:30", "level": "INFO", "text": "[INFO] 2018-12-17: session done, equity 19964, qty 182"}
+{"ts": "2026-11-01T01:09:36+05:30", "level": "INFO", "text": "[INFO] 2018-12-18: session done, equity 20029, qty 182"}
+{"ts": "2026-11-01T01:09:36+05:30", "level": "INFO", "text": "[INFO] 2018-12-19: session done, equity 20115, qty 182"}
+{"ts": "2026-11-01T01:09:36+05:30", "level": "INFO", "text": "[INFO] 2018-12-20: session done, equity 20024, qty 182"}
+{"ts": "2026-11-01T01:09:36+05:30", "level": "INFO", "text": "[INFO] 2018-12-21: session done, equity 19700, qty 182"}
+{"ts": "2026-11-01T01:09:36+05:30", "level": "INFO", "text": "[INFO] 2018-12-24: session done, equity 19563, qty 182"}
+{"ts": "2026-11-01T01:09:36+05:30", "level": "INFO", "text": "[INFO] 2018-12-26: session done, equity 19664, qty 182"}
+{"ts": "2026-11-01T01:09:36+05:30", "level": "INFO", "text": "[INFO] 2018-12-27: session done, equity 19762, qty 182"}
+{"ts": "2026-11-01T01:09:36+05:30", "level": "INFO", "text": "[INFO] 2018-12-28: session done, equity 19881, qty 182"}
+{"ts": "2026-11-01T01:09:36+05:30", "level": "INFO", "text": "[INFO] 2018-12-31: session done, equity 19940, qty 182"}

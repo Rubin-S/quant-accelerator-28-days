@@ -1,0 +1,13 @@
+# IS report acceptance checklist (Day 17)
+- [ ] Pre-reg hash verified by the script (paste the line)
+- [ ] Trade series = NSE-rebuilt NIFTYBEES, not the index stand-in (or the gap stated in bold)
+- [ ] Cash series named, lagged, provisional stretch flagged
+- [ ] Evaluation start aligned to the longest lookback; unaligned number shown once, as a warning
+- [ ] Every pre-registered variant shown, including the ugly ones (12m)
+- [ ] Every headline number has a band (bootstrap, block length stated) or is marked "point only"
+- [ ] Sub-periods: years + regimes. Where did the edge come from? One paragraph.
+- [ ] Costs: drag in bps/yr, trades, turnover
+- [ ] Trial count: N in family, N total, Sharpe variance, effective N, and which N you'll use for DSR on Day 20 (decide NOW)
+- [ ] manifest.json committed (code + data hashes); `git tag is-report-v1`
+- [ ] One sentence: "Nothing here is evidence; Day 20 is the test."
+- [ ] No change to the pre-reg. If you want one: v2 file + reason + trials up, BEFORE Day 20.

@@ -1,0 +1,2 @@
+trial_id,date,family,description,params,window,is_sharpe_xs,counted_in_dsr,notes
+T001,2026-11-01,trend-overlay,EXAMPLE ROW: replace with your real log from Day 1,Faber 10m,2007-09..2018-12,,yes,delete this row

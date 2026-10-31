@@ -1,0 +1,29 @@
+{"ts": "2026-11-01T01:09:35+05:30", "kind": "eod", "date": "2018-11-26 00:00:00", "equity": 20000.0, "qty": 0, "cash": 20000, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:09:35+05:30", "kind": "eod", "date": "2018-11-27 00:00:00", "equity": 20000.0, "qty": 0, "cash": 20000, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:09:35+05:30", "kind": "eod", "date": "2018-11-28 00:00:00", "equity": 20000.0, "qty": 0, "cash": 20000, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:09:36+05:30", "kind": "eod", "date": "2018-11-29 00:00:00", "equity": 20000.0, "qty": 0, "cash": 20000, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:09:36+05:30", "kind": "eod", "date": "2018-11-30 00:00:00", "equity": 20000.0, "qty": 0, "cash": 20000, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:09:36+05:30", "kind": "decision", "date": "2018-12-03 00:00:00", "signal": 1, "target": 1.0}
+{"ts": "2026-11-01T01:09:36+05:30", "kind": "eod", "date": "2018-12-03 00:00:00", "equity": 20000.0, "qty": 0, "cash": 20000, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:09:36+05:30", "kind": "pre_trade", "date": "2018-12-04 00:00:00", "order": {"symbol": "NIFTYBEES", "side": "BUY", "qty": 182, "order_type": "LIMIT", "limit_price": 109.55, "tag": "F10181204B0", "reason": "signal"}, "violations": []}
+{"ts": "2026-11-01T01:09:36+05:30", "kind": "order", "date": "2018-12-04 00:00:00", "order_id": "P000001", "tag": "F10181204B0", "symbol": "NIFTYBEES", "side": "BUY", "qty": 182, "order_type": "LIMIT", "limit_price": 109.55, "status": "OPEN", "filled_qty": 0, "avg_price": 0.0, "fees": 0.0, "reason": ""}
+{"ts": "2026-11-01T01:09:36+05:30", "kind": "fill", "date": "2018-12-04 00:00:00", "order_id": "P000001", "tag": "F10181204B0", "symbol": "NIFTYBEES", "side": "BUY", "qty": 182, "order_type": "LIMIT", "limit_price": 109.55, "status": "COMPLETE", "filled_qty": 182, "avg_price": 109.05633216012212, "fees": 3.719681599233572, "reason": ""}
+{"ts": "2026-11-01T01:09:36+05:30", "kind": "eod", "date": "2018-12-04 00:00:00", "equity": 19986.36, "qty": 182, "cash": 148.03, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:09:36+05:30", "kind": "eod", "date": "2018-12-05 00:00:00", "equity": 19814.84, "qty": 182, "cash": 148.03, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:09:36+05:30", "kind": "eod", "date": "2018-12-06 00:00:00", "equity": 19437.04, "qty": 182, "cash": 148.03, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:09:36+05:30", "kind": "eod", "date": "2018-12-07 00:00:00", "equity": 19592.85, "qty": 182, "cash": 148.03, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:09:36+05:30", "kind": "eod", "date": "2018-12-10 00:00:00", "equity": 19251.94, "qty": 182, "cash": 148.03, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:09:36+05:30", "kind": "eod", "date": "2018-12-11 00:00:00", "equity": 19389.96, "qty": 182, "cash": 148.03, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:09:36+05:30", "kind": "eod", "date": "2018-12-12 00:00:00", "equity": 19716.18, "qty": 182, "cash": 148.03, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:09:36+05:30", "kind": "eod", "date": "2018-12-13 00:00:00", "equity": 19787.28, "qty": 182, "cash": 148.03, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:09:36+05:30", "kind": "eod", "date": "2018-12-14 00:00:00", "equity": 19851.22, "qty": 182, "cash": 148.03, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:09:36+05:30", "kind": "eod", "date": "2018-12-17 00:00:00", "equity": 19963.84, "qty": 182, "cash": 148.03, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:09:36+05:30", "kind": "eod", "date": "2018-12-18 00:00:00", "equity": 20028.83, "qty": 182, "cash": 148.03, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:09:36+05:30", "kind": "eod", "date": "2018-12-19 00:00:00", "equity": 20115.31, "qty": 182, "cash": 148.03, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:09:36+05:30", "kind": "eod", "date": "2018-12-20 00:00:00", "equity": 20024.27, "qty": 182, "cash": 148.03, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:09:36+05:30", "kind": "eod", "date": "2018-12-21 00:00:00", "equity": 19699.98, "qty": 182, "cash": 148.03, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:09:36+05:30", "kind": "eod", "date": "2018-12-24 00:00:00", "equity": 19562.65, "qty": 182, "cash": 148.03, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:09:36+05:30", "kind": "eod", "date": "2018-12-26 00:00:00", "equity": 19663.92, "qty": 182, "cash": 148.03, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:09:36+05:30", "kind": "eod", "date": "2018-12-27 00:00:00", "equity": 19762.06, "qty": 182, "cash": 148.03, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:09:36+05:30", "kind": "eod", "date": "2018-12-28 00:00:00", "equity": 19880.61, "qty": 182, "cash": 148.03, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:09:36+05:30", "kind": "eod", "date": "2018-12-31 00:00:00", "equity": 19939.77, "qty": 182, "cash": 148.03, "halted": "", "killed": ""}

@@ -1,0 +1,4 @@
+- NIFTY50_daily.csv, NIFTYBEES_daily.csv: Yahoo Finance via yfinance (from the Day 4 kit). Use only to 2018-12-31. NIFTY is a price index (no dividends).
+- IIMA_FourFactors_*: IIMA data library, Dec 2025 release, survivorship-bias adjusted. Values in %. Columns SMB, HML, WML, MF (market excess return), RF.
+- Known NIFTYBEES bad ticks: 2019-12-19/20, 2010-02-05, 2010-10-06.
+- Liquidity facts checked 31 Oct 2026 via Yahoo (last 250 trading days, median daily traded value): NIFTYBEES ≈ ₹185 cr; MOM30IETF ≈ ₹2.3 cr (listed Jun 2024); MOMENTUM ≈ ₹0.18 cr (Aug 2022); MOMENTUM50 ≈ ₹2.6 cr (Sep 2024). Verify against NSE before trading.

@@ -1,0 +1,11 @@
+name,verdict,reason,cost_bps,net_bps_trade,net_pct_yr,after_tax_pct_yr
+Overnight NIFTYBEES (buy close sell open),KILL,S4 costs eat it: 9.1 bps gross x 0.42 haircut < 13.9 bps cost,13.9,-10.1,-24.65,-24.65
+Turn-of-month NIFTYBEES (last day + first 3),PARK,S4 too thin: net 8.0 bps vs cost 13.9 bps (needs > 2x),13.9,8.0,0.95,0.76
+Faber 10-month filter on NIFTYBEES,SURVIVE,"overlay: costs about 0.28% a year; judge it on drawdown, not return",13.9,,,
+12-month time-series trend on NIFTYBEES,SURVIVE,confirm mode: literature t >= 3; we only need a same-sign confirmation (discovery would need 1587 yrs),13.9,49.1,0.98,0.78
+1-month trend on NIFTYBEES,KILL,S3 our data points the wrong way (t = -0.98),13.9,2.9,0.35,0.28
+BANK/NIFTY spread mean reversion,KILL,S1 breaks house rules (short/F&O/leverage),13.9,11.3,0.91,0.72
+Intraday large-cap mean reversion,KILL,S4 costs eat it: 15.0 bps gross x 0.42 haircut < 18.3 bps cost,18.3,-12.0,-59.84,-59.84
+High-VIX: buy NIFTYBEES after VIX spike,PARK,"S6 untestable: needs about 95 years of data to reach t = 3, we have 12",13.9,134.1,5.36,4.25
+NIFTY vs gold 6-month momentum rotation,KILL,S3 our data points the wrong way (t = -0.45),13.9,28.1,1.12,0.89
+Hold Nifty200 Momentum 30 ETF instead of NIFTYBEES,SURVIVE,confirm mode: literature t >= 3; we only need a same-sign confirmation (discovery would need 716 yrs),13.9,112.1,1.12,1.12

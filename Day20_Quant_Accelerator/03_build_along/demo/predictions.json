@@ -1,0 +1,16 @@
+{
+ "written_by": "Mentor (DEMO): written before the demo run on 1 Nov 2026, from in-sample results only",
+ "falsifiers": {"vol_ratio_max": 0.85, "dd_edge_min_pp": 5.0, "note": "PLACEHOLDERS; use your locked numbers"},
+ "dsr_n_trials": 25,
+ "dsr_trial_sharpe_std_annual": 0.15,
+ "oos_sharpe_xs_strategy": {"point": 0.15, "lo90": -0.40, "hi90": 0.70},
+ "oos_sharpe_xs_buyhold":  {"point": 0.35, "lo90": -0.20, "hi90": 0.90},
+ "oos_vol_ratio":          {"point": 0.75, "lo90": 0.60, "hi90": 0.95},
+ "oos_dd_edge_pp":         {"point": 8.0,  "lo90": -5.0, "hi90": 25.0},
+ "oos_max_dd_strategy_pct":{"point": -22.0,"lo90": -35.0,"hi90": -12.0},
+ "oos_n_round_trips":      {"point": 8,    "lo90": 4,    "hi90": 14},
+ "p_vol_falsifier_passes": 0.80,
+ "p_dd_falsifier_passes": 0.55,
+ "p_strategy_sharpe_beats_buyhold": 0.35,
+ "reasoning": "IS vol ratio 0.69 robust to start date; DD edge rests on Oct 2008 and the 2020 crash was too fast for a monthly filter; B&H usually wins on Sharpe in strong bull runs."
+}

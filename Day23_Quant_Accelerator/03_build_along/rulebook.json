@@ -1,0 +1,15 @@
+{
+ "version": "v1-DRAFT",
+ "strategy": "Faber 10m month-start filter on NIFTY 50 (signal), traded in NIFTYBEES, long/flat",
+ "universe": ["NIFTYBEES"],
+ "max_gross_exposure": 1.0,
+ "capital_at_risk_inr": 20000,
+ "sizing": {"base_weight": 1.0, "vol_target_annual": null, "kelly_fraction_for_report": 0.5},
+ "market": {"order_window_start": "09:30", "order_window_end": "15:00",
+            "holidays": ["2026-11-10", "2026-11-24"], "holidays_note": "FILL the full NSE trading-holiday list for 2026 and 2027"},
+ "data": {"max_staleness_minutes": 15},
+ "orders": {"max_price_deviation_pct": 1.0, "max_order_value_inr": 25000, "max_orders_per_day": 4, "max_rejects_per_day": 2},
+ "loss_limits": {"daily_loss_halt_pct": 6.0, "monthly_loss_halt_pct": 12.0, "kill_drawdown_multiple_of_backtest": 1.5},
+ "decision_day": "first NSE session of each calendar month; decision from month-end closes up to the previous session",
+ "amendments": "dated entry in RULEBOOK.md, 48-hour cooling-off, re-hash, never during market hours, logged in trial-log if it changes the rule"
+}

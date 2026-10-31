@@ -1,0 +1,23 @@
+{
+ "sr": 0.1756820078904501,
+ "vol": 0.1423938034918881,
+ "backtest_max_dd": -0.25594538265228894,
+ "yours": {
+  "daily": 0.0,
+  "monthly": 0.01175,
+  "kill": 0.0
+ },
+ "kelly": {
+  "full_kelly_point": 1.2337756530287385,
+  "frac_kelly_point": 0.6168878265143692,
+  "full_kelly_lower": 0.0,
+  "frac_kelly_lower": 0.0,
+  "verdict": "Kelly at the lower bound is 0: the edge is unproven, so size by RISK BUDGET (money you can lose), not by edge."
+ },
+ "triple_penance": {
+  "max_quantile_loss": 0.5483219322242876,
+  "years_to_max_loss": 21.918823545489644,
+  "max_years_under_water": 87.67529418195858
+ },
+ "rulebook_sha": "67a383968098c2e436b488a0cab9fb2e738fa2170a165f06b7bdb164cb634220"
+}

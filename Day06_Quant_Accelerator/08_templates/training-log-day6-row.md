@@ -1,0 +1,1 @@
+| 2026-11-05 | 6 | Microstructure: book, spread, adverse selection, slippage | naive_mm_lab run + replay in my C++ book + 10 problems + cost model v0 | Can explain why the naive MM lost in 3 sentences? Y/N. Lab predictions right: _/6 | | W1 in progress | |

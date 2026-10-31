@@ -1,0 +1,43 @@
+{
+ "written_by": "",
+ "falsifiers": {
+  "vol_ratio_max": null,
+  "dd_edge_min_pp": null
+ },
+ "dsr_n_trials": null,
+ "dsr_trial_sharpe_std_annual": null,
+ "oos_sharpe_xs_strategy": {
+  "point": null,
+  "lo90": null,
+  "hi90": null
+ },
+ "oos_sharpe_xs_buyhold": {
+  "point": null,
+  "lo90": null,
+  "hi90": null
+ },
+ "oos_vol_ratio": {
+  "point": null,
+  "lo90": null,
+  "hi90": null
+ },
+ "oos_dd_edge_pp": {
+  "point": null,
+  "lo90": null,
+  "hi90": null
+ },
+ "oos_max_dd_strategy_pct": {
+  "point": null,
+  "lo90": null,
+  "hi90": null
+ },
+ "oos_n_round_trips": {
+  "point": null,
+  "lo90": null,
+  "hi90": null
+ },
+ "p_vol_falsifier_passes": null,
+ "p_dd_falsifier_passes": null,
+ "p_strategy_sharpe_beats_buyhold": null,
+ "reasoning": "Why you expect each number, in 3-5 lines. Written BEFORE sealing."
+}

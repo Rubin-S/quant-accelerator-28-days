@@ -1,0 +1,11 @@
+# Solutions
+1. (a) Capacity: retail-sized edges are small, and costs/taxes bite harder per rupee (Day 7: DP charge, 20.8% short-term tax). (b) Regulation: since 1 Apr 2026, retail algos via APIs need static IPs, 2FA and broker-registered strategies (the plan's audit notes). Plus data costs. *Scalable in theory; frictions are real.*
+2. Typical: intraday mean reversion (needs screen hours and costs kill it), pairs on single stocks (needs shorting, banned), cross-sectional stock momentum (universe/shorting/turnover). *Your constraints are a filter, not a weakness.*
+3. 21 switches / 10.5 years ≈ 2 a year × ~7 bps ≈ **0.14% a year**. Tiny. *For slow rules, tax and opportunity cost matter far more than fees.*
+4. Long-run growth ≈ μ − σ²/2. Lower σ means a higher Kelly fraction and less ruin risk; if you'd size buy-and-hold below full because of drawdown fear, the filter lets you hold more risk-adjusted exposure (still ≤ 1.0×). *Compare at equal risk, not equal capital.*
+5. Mostly insurance: you give up some upside (whipsaws, re-entry lag) to avoid deep crashes. A payer story exists via trend persistence (Day 8), but the main effect is risk shaping. *Not every card needs alpha. A risk tool is fine if you label it honestly.*
+6. It begins near a crash, so the first thing the filter does is sidestep the 2008 collapse, a gain buy-and-hold eats in full. One lucky early event dominates a short sample. *Check results across start dates.*
+7. Gold and NIFTY often move differently; the mix already has low drawdown (−10.9%), so the filter mainly adds whipsaw and cash drag. *A filter's value depends on what it's filtering.*
+8. Pass 1 can kill (no payer, doesn't fit our rules, absurd claims). Accepting needs pass 2 at least (exact rule, data, costs, out-of-sample). *Kill cheaply, accept expensively.*
+9. Benchmark/consistency: a price index omits dividends, so buy-and-hold is understated by roughly 1–1.5% a year, which flatters any timing rule that sits in cash. *Always compare against a total-return benchmark.*
+10. It settles with 6 Nov trades on **Mon 9 Nov, 08:30** (NCL/CMPT/77038). A 70-minute festive session is thin and sentiment-driven, so prices and spreads are unrepresentative. *Our rules don't trade special sessions.*

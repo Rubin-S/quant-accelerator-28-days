@@ -1,0 +1,27 @@
+{
+ "created": "2026-10-31T08:10:42",
+ "python": "3.12.15",
+ "numpy": "2.5.4",
+ "pandas": "3.1.0",
+ "args": {
+  "signal": "/workspace/work/Day17_Quant_Accelerator/03_build_along/../06_data/NIFTY50_daily_IS_to_2018-12-31.csv",
+  "trade": null,
+  "cash": "/workspace/work/Day17_Quant_Accelerator/03_build_along/../06_data/india_cash_rate_monthly_2007_2018.csv",
+  "prereg": null,
+  "lock": null,
+  "primary": 10,
+  "grid": "8,10,12",
+  "trials": "/workspace/work/Day17_Quant_Accelerator/03_build_along/../04_templates/trial-log.csv",
+  "reps": 2000,
+  "block": 20,
+  "out": "/workspace/work/Day17_Quant_Accelerator/03_build_along/is_out",
+  "no_align": false
+ },
+ "sha256": {
+  "is_report.py": "2374249210f5edc4865858962dcc6b482c0f4384d048c9af0bf7746bf305ca68",
+  "engine.py": "d05c3d219f7bdbefb7e83c6d38fd2ebe56281a18115f759caa96a26c7b486b23",
+  "nse_costs.py": "a03fed9b7c35d87702bc72ea00a49086a98be37e2b466e79793024cc593ec756",
+  "NIFTY50_daily_IS_to_2018-12-31.csv": "5515c687efd6ba4bde426a92564656eff649066c1bcd07fcc85f35062a009ed2",
+  "india_cash_rate_monthly_2007_2018.csv": "7fcff0997266184f5b85411646bd0ed4fce01a0f4cad7aa175a793c7ffa356da"
+ }
+}

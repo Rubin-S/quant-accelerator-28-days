@@ -1,0 +1,36 @@
+{
+ "start": "2008-09-01",
+ "parity_mismatch_days": 0,
+ "parity_days": 2522,
+ "orders_close": 21,
+ "end_equity_gap_vs_engine_bps": -29.0,
+ "limit_orders_sent": 22,
+ "limit_unfilled": 0,
+ "limit_first_try_fill_rate": 1.0,
+ "limit_days_out_of_sync": 0,
+ "passive_orders_sent": 33,
+ "passive_unfilled": 8,
+ "passive_days_out_of_sync": 7,
+ "rerun_orders": 21,
+ "rerun_extra_orders": 0,
+ "engine": {
+  "CAGR": 0.06654073875508382,
+  "vol": 0.14227122092504071,
+  "max_dd": -0.30352628406166515
+ },
+ "pipeline_close": {
+  "CAGR": 0.06623100509237623,
+  "vol": 0.14166798328602584,
+  "max_dd": -0.30238865144292093
+ },
+ "pipeline_limit": {
+  "CAGR": 0.0665942940418307,
+  "vol": 0.14242990156038698,
+  "max_dd": -0.3011708044509712
+ },
+ "pipeline_passive": {
+  "CAGR": 0.06334372665954668,
+  "vol": 0.14269337856195333,
+  "max_dd": -0.3006701568409019
+ }
+}

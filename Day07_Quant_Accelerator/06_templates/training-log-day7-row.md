@@ -1,0 +1,1 @@
+| 2026-11-06 | 7 | NSE cost stack + GATE 1 | nse_costs.py + tests passing + contract-note check + cost_drag_lab + 10 problems | Gate 1: Kelly sim __ / noise proof __ / cost calc within 20% __ | | GATE 1: PASS/FAIL | |

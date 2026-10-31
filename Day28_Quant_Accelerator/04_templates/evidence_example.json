@@ -1,0 +1,9 @@
+{
+  "journal": "journal.jsonl", "state": "state.json", "alerts": "alerts.log", "incidents": "incidents.md",
+  "bars": "data/NIFTYBEES.csv", "signal": "data/NIFTY.csv",
+  "rulebook": "rulebook.json", "rulebook_locked_sha256": "PASTE the sha256 you locked on Day 21",
+  "replay_mismatch_days": 0, "replay_report": "replay_out/report.md",
+  "holdout_opened_log": "holdout/OPENED.log", "holdout_falsifiers_passed": null,
+  "game_day_passed": 0, "game_day_total": 8,
+  "capital_at_risk_is_money_i_can_lose": null, "memo_sections": "memo_sections.md"
+}

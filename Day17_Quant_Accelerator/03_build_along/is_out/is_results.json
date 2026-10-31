@@ -1,0 +1,168 @@
+{
+ "eval_start": "2008-09-01",
+ "rows": {
+  "Buy & hold (benchmark)": {
+   "CAGR": 0.08906234622650544,
+   "vol": 0.2071479002640515,
+   "sharpe_xs": 0.18849049668580967,
+   "max_dd": -0.43899865348734646,
+   "calmar": 0.2028761261999464,
+   "longest_underwater_days": 1086,
+   "years": 10.329911019849419,
+   "sharpe_se_iid": 0.3161761846559949,
+   "exposure": 0.9995113895562273,
+   "trades": 2,
+   "turnover_x_per_yr": 0.06298225187288833,
+   "cost_drag_bps_per_yr": 0.0526433845404739,
+   "costs_inr": 198.1645267135819,
+   "interest_inr": 57710.33008649589
+  },
+  "Faber 8m (grid)": {
+   "CAGR": 0.09272994606435736,
+   "vol": 0.13989876624776026,
+   "sharpe_xs": 0.22007752808469785,
+   "max_dd": -0.24284910543279414,
+   "calmar": 0.38184182683769186,
+   "longest_underwater_days": 1279,
+   "years": 10.329911019849419,
+   "sharpe_se_iid": 0.31618023235691706,
+   "exposure": 0.6699084671263486,
+   "trades": 22,
+   "turnover_x_per_yr": 1.9312039166431032,
+   "cost_drag_bps_per_yr": 13.054743663034607,
+   "costs_inr": 4537.864310001937,
+   "interest_inr": 464134.1041874925
+  },
+  "Faber 10m (PRIMARY)": {
+   "CAGR": 0.08627055085307478,
+   "vol": 0.14242205342838107,
+   "sharpe_xs": 0.17564716072004077,
+   "max_dd": -0.25594538265228894,
+   "calmar": 0.33706625202251234,
+   "longest_underwater_days": 1289,
+   "years": 10.329911019849419,
+   "sharpe_se_iid": 0.31617471781697853,
+   "exposure": 0.7035755406724855,
+   "trades": 22,
+   "turnover_x_per_yr": 2.124516313452705,
+   "cost_drag_bps_per_yr": 13.330575439720604,
+   "costs_inr": 5037.6602469966465,
+   "interest_inr": 414481.39921120525
+  },
+  "Faber 12m (grid)": {
+   "CAGR": 0.07353251575957831,
+   "vol": 0.13076043336091991,
+   "sharpe_xs": 0.08718392194528927,
+   "max_dd": -0.25616177026371056,
+   "calmar": 0.2870549953019097,
+   "longest_underwater_days": 1289,
+   "years": 10.329911019849419,
+   "sharpe_se_iid": 0.3161674251800638,
+   "exposure": 0.7285210615751333,
+   "trades": 14,
+   "turnover_x_per_yr": 1.1928179578607414,
+   "cost_drag_bps_per_yr": 9.238223377379118,
+   "costs_inr": 2417.857861081483,
+   "interest_inr": 320736.274465902
+  }
+ },
+ "bootstrap": {
+  "Buy & hold (benchmark)": {
+   "sharpe_xs_90ci": [
+    -0.3432711490393521,
+    0.7358389012347593
+   ],
+   "P_sharpe_gt_0": 0.713
+  },
+  "Faber 8m (grid)": {
+   "sharpe_xs_90ci": [
+    -0.2854042977068263,
+    0.6847924497874008
+   ],
+   "P_sharpe_gt_0": 0.7685,
+   "vol_ratio_90ci": [
+    0.5484224679600987,
+    0.7936835144707749
+   ],
+   "dd_diff_90ci": [
+    0.0008602288065926782,
+    0.4197549975777835
+   ],
+   "cagr_giveup_90ci": [
+    -0.08964582638853014,
+    0.09974649719287379
+   ],
+   "P_dd_shallower": 0.951
+  },
+  "Faber 10m (PRIMARY)": {
+   "sharpe_xs_90ci": [
+    -0.3201019848370952,
+    0.6418773205525072
+   ],
+   "P_sharpe_gt_0": 0.7275,
+   "vol_ratio_90ci": [
+    0.5625727699060282,
+    0.8060329238884828
+   ],
+   "dd_diff_90ci": [
+    -0.004097234117667886,
+    0.4034683744940112
+   ],
+   "cagr_giveup_90ci": [
+    -0.09725971760488385,
+    0.09111890735004256
+   ],
+   "P_dd_shallower": 0.943
+  },
+  "Faber 12m (grid)": {
+   "sharpe_xs_90ci": [
+    -0.3905474937154355,
+    0.58108060755579
+   ],
+   "P_sharpe_gt_0": 0.621,
+   "vol_ratio_90ci": [
+    0.5257840472369676,
+    0.7655344227935306
+   ],
+   "dd_diff_90ci": [
+    -0.011838391760980081,
+    0.40107584362168924
+   ],
+   "cagr_giveup_90ci": [
+    -0.1258923328351287,
+    0.08726032703704621
+   ],
+   "P_dd_shallower": 0.9305
+  }
+ },
+ "regimes": {
+  "Buy & hold (benchmark)": {
+   "GFC crash (from eval start to 2009-03)": -0.32860484884122565,
+   "Recovery & taper (2009-04 to 2013-12)": 1.059844909469887,
+   "2014 to 2018": 0.7460508464346558
+  },
+  "Faber 8m (grid)": {
+   "GFC crash (from eval start to 2009-03)": 0.03425795523502062,
+   "Recovery & taper (2009-04 to 2013-12)": 0.5352269104427789,
+   "2014 to 2018": 0.5947779574767429
+  },
+  "Faber 10m (PRIMARY)": {
+   "GFC crash (from eval start to 2009-03)": 0.03425795523502062,
+   "Recovery & taper (2009-04 to 2013-12)": 0.49514380898117105,
+   "2014 to 2018": 0.5402481733524442
+  },
+  "Faber 12m (grid)": {
+   "GFC crash (from eval start to 2009-03)": 0.03425795523502062,
+   "Recovery & taper (2009-04 to 2013-12)": 0.2152036058305553,
+   "2014 to 2018": 0.6776143715603076
+  }
+ },
+ "trials": {
+  "total_trials_logged": 1,
+  "trials_in_family": 1,
+  "sharpe_var_in_family": null,
+  "note": "Day 20 DSR uses N = trials_in_family (or effective N, justified) and this variance."
+ },
+ "effective_n": 1.1522686081922038,
+ "dd_diff_unaligned": 0.3418250689048875
+}

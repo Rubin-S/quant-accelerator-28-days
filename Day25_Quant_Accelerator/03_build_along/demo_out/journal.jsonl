@@ -1,0 +1,15 @@
+{"ts": "2026-11-01T01:06:37+05:30", "kind": "eod", "date": "2018-12-18 00:00:00", "equity": 20000.0, "qty": 0, "cash": 20000, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:06:37+05:30", "kind": "eod", "date": "2018-12-19 00:00:00", "equity": 20000.0, "qty": 0, "cash": 20000, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:06:37+05:30", "kind": "forced_drill", "date": "2018-12-20", "target": 1.0}
+{"ts": "2026-11-01T01:06:37+05:30", "kind": "pre_trade", "date": "2018-12-20 00:00:00", "order": {"symbol": "NIFTYBEES", "side": "BUY", "qty": 72, "order_type": "LIMIT", "limit_price": 275.16, "tag": "F10181220B0", "reason": "signal"}, "violations": []}
+{"ts": "2026-11-01T01:06:37+05:30", "kind": "order", "date": "2018-12-20 00:00:00", "order_id": "P000001", "tag": "F10181220B0", "symbol": "NIFTYBEES", "side": "BUY", "qty": 72, "order_type": "LIMIT", "limit_price": 275.16, "status": "OPEN", "filled_qty": 0, "avg_price": 0.0, "fees": 0.0, "reason": ""}
+{"ts": "2026-11-01T01:06:37+05:30", "kind": "fill", "date": "2018-12-20 00:00:00", "order_id": "P000001", "tag": "F10181220B0", "symbol": "NIFTYBEES", "side": "BUY", "qty": 72, "order_type": "LIMIT", "limit_price": 275.16, "status": "COMPLETE", "filled_qty": 72, "avg_price": 273.9294011352539, "fees": 3.6961929611390443, "reason": ""}
+{"ts": "2026-11-01T01:06:37+05:30", "kind": "eod", "date": "2018-12-20 00:00:00", "equity": 19986.45, "qty": 72, "cash": 273.39, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:06:37+05:30", "kind": "eod", "date": "2018-12-21 00:00:00", "equity": 19630.59, "qty": 72, "cash": 273.39, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:06:37+05:30", "kind": "abort", "date": "2018-12-24", "why": "preflight"}
+{"ts": "2026-11-01T01:06:37+05:30", "kind": "eod", "date": "2018-12-26 00:00:00", "equity": 19587.12, "qty": 72, "cash": 273.39, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:06:37+05:30", "kind": "mismatch", "date": "2018-12-27 00:00:00", "book": 72, "broker": 77}
+{"ts": "2026-11-01T01:06:37+05:30", "kind": "risk_event", "date": "2018-12-27 00:00:00", "event": "HALT position mismatch"}
+{"ts": "2026-11-01T01:06:37+05:30", "kind": "eod", "date": "2018-12-27 00:00:00", "equity": 19677.03, "qty": 72, "cash": 273.39, "halted": "position mismatch after recovery: book 72 vs broker 77", "killed": ""}
+{"ts": "2026-11-01T01:06:37+05:30", "kind": "eod", "date": "2018-12-28 00:00:00", "equity": 19821.21, "qty": 72, "cash": 273.39, "halted": "", "killed": ""}
+{"ts": "2026-11-01T01:06:37+05:30", "kind": "eod", "date": "2018-12-31 00:00:00", "equity": 19825.98, "qty": 72, "cash": 273.39, "halted": "", "killed": ""}

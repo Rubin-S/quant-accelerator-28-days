@@ -1,0 +1,1 @@
+{"ALL_OK": true, "ran_at": "2018-12-31T09:20:00+05:30", "egress_ip": {"ok": true, "detail": "egress = whitelisted"}, "token": {"ok": true, "detail": "valid until next 06:00"}, "funds": {"ok": true, "detail": "cash \u2265 capital"}}

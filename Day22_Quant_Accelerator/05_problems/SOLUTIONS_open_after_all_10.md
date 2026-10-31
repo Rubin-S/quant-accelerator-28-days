@@ -1,0 +1,11 @@
+# Solutions
+1. Orders move money. Data doesn't. A whitelisted IP means a stolen key + token can't trade from someone else's machine, and it ties every algo order to a known origin (SEBI's traceability aim). *Lock the door that leads to the money.*
+2. 06:00 IST Sunday. On Monday at 09:30 there's no valid token: preflight fails "token", nothing trades, and you get an alert. That's the designed behaviour, not a bug. *Fail closed.*
+3. api_key only identifies the app. api_secret + request_token mints a session that can trade. Anything in a browser or app can be extracted. *Secrets live on servers, never on clients.*
+4. Zerodha says the exchange requires a manual login at least once a day and doesn't recommend automating it. A bot that types your TOTP holds both factors in one place, so 2FA becomes 1FA. *Don't automate away the control that protects you.*
+5. The public IP changes: order calls get rejected. Preflight's egress_ip check fails first, before any order is attempted. *Check the precondition, not the symptom.*
+6. Decisions are once a month on a session boundary; seconds don't matter, but hours (timezone) and the 06:00 expiry do. Intraday or open/close-auction strategies would need chrony offsets in milliseconds. *Match the tolerance to the decision's clock.*
+7. Your signal uses NIFTY daily closes, which you can get from NSE files (Day 13), so Personal (free) can work. Connect only buys convenience (historical candles, live LTP for limit prices). Write down which you chose and why. *Don't pay for data you already have.*
+8. No inbound ports open means a smaller attack surface; the request_token never crosses the public internet unencrypted; and there's no web server to patch. *The best server is the one that isn't listening.*
+9. Don't trade. The rulebook says capital at risk is ₹20,000 and funds must cover it; fix the funding, log it, and trade on the next valid day. Quietly shrinking is a silent rule change. *Rules beat convenience.*
+10. (a) Market closed or a holiday missing from the list; (b) the instrument is in the ban/T2T segment or circuit-locked; (c) the limit price is outside the exchange's price band or tick size; (d) insufficient holdings for a sell (T1 shares). *Preflight proves plumbing, not every order.*

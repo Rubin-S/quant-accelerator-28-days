@@ -1,0 +1,18 @@
+{
+  "journal": "journal.jsonl",
+  "state": "state.json",
+  "alerts": "alerts.log",
+  "incidents": "incidents.md",
+  "bars": "demo_ETF_bars.csv",
+  "signal": "demo_NIFTY_signal.csv",
+  "rulebook": "../rulebook.json",
+  "rulebook_locked_sha256": "67a383968098c2e436b488a0cab9fb2e738fa2170a165f06b7bdb164cb634220",
+  "replay_mismatch_days": 0,
+  "replay_report": "replay_report.md",
+  "holdout_opened_log": "OPENED.log",
+  "holdout_falsifiers_passed": true,
+  "game_day_passed": 8,
+  "game_day_total": 8,
+  "capital_at_risk_is_money_i_can_lose": true,
+  "memo_sections": "memo_sections.md"
+}

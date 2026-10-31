@@ -1,0 +1,13 @@
+{"ts": "2026-11-01T01:06:37+05:30", "level": "INFO", "text": "[INFO] 2018-12-18: session done, equity 20000, qty 0"}
+{"ts": "2026-11-01T01:06:37+05:30", "level": "INFO", "text": "[INFO] 2018-12-19: session done, equity 20000, qty 0"}
+{"ts": "2026-11-01T01:06:37+05:30", "level": "WARN", "text": "[WARN] 2018-12-20: forced paper drill, target 1.0"}
+{"ts": "2026-11-01T01:06:37+05:30", "level": "WARN", "text": "[WARN] 2018-12-20: paper BUY 72 NIFTYBEES \u2192 COMPLETE @ 273.93 "}
+{"ts": "2026-11-01T01:06:37+05:30", "level": "INFO", "text": "[INFO] 2018-12-20: session done, equity 19986, qty 72"}
+{"ts": "2026-11-01T01:06:37+05:30", "level": "INFO", "text": "[INFO] 2018-12-21: session done, equity 19631, qty 72"}
+{"ts": "2026-11-01T01:06:37+05:30", "level": "CRIT", "text": "[CRIT] 2018-12-24: preflight missing/failed/stale \u2192 no session"}
+{"ts": "2026-11-01T01:06:37+05:30", "level": "INFO", "text": "[INFO] 2018-12-26: session done, equity 19587, qty 72"}
+{"ts": "2026-11-01T01:06:37+05:30", "level": "CRIT", "text": "[CRIT] 2018-12-27: position mismatch after recovery: book 72 vs broker 77"}
+{"ts": "2026-11-01T01:06:37+05:30", "level": "CRIT", "text": "[CRIT] 2018-12-27: HALTED: position mismatch after recovery: book 72 vs broker 77"}
+{"ts": "2026-11-01T01:06:37+05:30", "level": "INFO", "text": "[INFO] 2018-12-27: session done, equity 19677, qty 72"}
+{"ts": "2026-11-01T01:06:37+05:30", "level": "INFO", "text": "[INFO] 2018-12-28: session done, equity 19821, qty 72"}
+{"ts": "2026-11-01T01:06:37+05:30", "level": "INFO", "text": "[INFO] 2018-12-31: session done, equity 19826, qty 72"}

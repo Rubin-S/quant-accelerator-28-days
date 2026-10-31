@@ -1,0 +1,11 @@
+# Solutions
+1. A HALT means "something's off, stop adding risk"; liquidating then is a new, untested rule that can sell the bottom (e.g. a mismatch caused by a T1 settlement display, on a −5% day). KILL means the strategy itself is retired or the plumbing is broken. *Stopping and selling are different decisions.*
+2. It can't act while orders are open, takes up to 5 minutes, and locks you out for 12 hours even when you need to fix something. Your own layers act in seconds. *The outer lock is for after you've stopped the fire.*
+3. Record it as pending, keep its tag, do not send a second order, and wait for a terminal status; at EOD a DAY order expires. If it later fills, recovery applies the fill once. *After a crash, ask the broker.*
+4. You no longer know what's happening in the account: another app, a stolen session, or you trading by hand. Any of these breaks reconciliation and the rulebook. *Unknown activity is a risk, even when it's profitable.*
+5. A dead VM, a full disk or a hung process sends nothing at all, and silence looks like "all fine". An external check alerts you when the expected ping doesn't arrive. *Monitor the absence of good news.*
+6. WARN storms train you to mute the channel; CRIT is rare and every one needs action, so repetition is the right annoyance. *Make alerts rare enough to obey.*
+7. It proves login, preflight, recovery, state, alerts and heartbeat on real days and real data. It can't prove the decision or the order path on a live decision day. One forced drill exercises orders; more would turn the paper week into a fake strategy. *Test plumbing honestly, and label the drill a drill.*
+8. OK: event type, date, "halt/kill/abort", the instrument. Not OK: tokens, account IDs, balances, positions you'd mind a stranger seeing. Redaction is a backstop, not permission. *Alerts leave your server; treat them as public.*
+9. In a fast fall the limit may not fill, leaving a partial or no exit. Fallback: the CRIT alert asks you to act in the Kite app with a fresh limit, then log it as an incident. *Every automatic action needs a manual path.*
+10. Example: "2026-11-25 11:02 IST: I placed a manual order in the Kite app; this breaks Week 4's no-override rule; the session is void and the rulebook stands." *Write it down even when nobody's watching.*

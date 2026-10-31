@@ -1,0 +1,1 @@
+| 2026-11-04 | 5 | Overfitting: 20 noise strategies, DSR, MinBTL, PBO | overfitting_lab run + 10 problems + trial log updated | Gut within 10%: _/10. Lab predictions right: _/7. Can explain DSR in 3 sentences? Y/N | | W1 in progress | |

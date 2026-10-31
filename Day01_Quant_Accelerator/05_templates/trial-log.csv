@@ -1,0 +1,2 @@
+trial_id,date,idea_or_strategy,variant_or_parameters,data_used(in-sample/out-of-sample),metric_looked_at,result,kept_or_killed,why,cumulative_trials
+T0001,2026-10-31,example - delete me,SMA 50/200 on NIFTY,in-sample 2010-2019,Sharpe,0.45,killed,example row only,1
