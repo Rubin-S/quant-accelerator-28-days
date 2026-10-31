@@ -15,4 +15,4 @@ Sat 31 Oct to Fri 27 Nov 2026. Understand, test and deploy one honest NSE index 
 ## House rules
 NSE cash equities and index ETFs only · long or flat · 1.0x max leverage, no borrowing · no options, F&O, shorting or HFT · LIMIT orders only · log every trial.
 
-Papers and PDFs are included for personal study; keep this repo private.
+Papers and PDFs are included for personal study.
